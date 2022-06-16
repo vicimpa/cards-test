@@ -1,0 +1,46 @@
+html, body
+  width: 100vw
+  height: 100vh
+
+  margin: 0
+  padding: 0
+
+  background-color: #000
+
+body
+  min-width: 800px
+  min-height: 600px
+  position: relative
+  overflow: hidden
+
+  &::before
+    content: ''
+
+    position: absolute
+
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+    width: 100%
+    height: 100%
+
+    filter: blur(5px)
+    opacity: 0.8
+
+    background-image: url('img/city2.jpg')
+    background-size: cover
+    background-position: center
+    
+
+.root
+  width: 100%
+  height: 100%
+
+  position: absolute
+
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0

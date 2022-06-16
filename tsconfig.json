@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "class": ["class/"],
+      "lib": ["lib/"],
+      "data": ["data/"],
+      "entity": ["entity/"],
+      "view": ["view/"],
+      "img": ["img/"]
+    }
+  },
+  "exclude": [
+    "typings/**"
+  ]
+}

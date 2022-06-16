@@ -1,0 +1,7 @@
+{
+  "name": "@types/snapsvg",
+  "version": "0.0.1",
+  "dependencies": {
+    "@types/mina": "file:../mina"
+  }
+}
